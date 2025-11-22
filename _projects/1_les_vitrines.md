@@ -2,7 +2,7 @@
 layout: page
 title: Les Vitrines de Dourdan
 description: Website for Dourdan shop windows.
-img: 
+img:
 importance: 1
 category: work
 ---

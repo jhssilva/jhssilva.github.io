@@ -2,7 +2,7 @@
 layout: page
 title: True Worth
 description: LLM-powered platform for financial data analysis.
-img: 
+img:
 importance: 4
 category: work
 ---

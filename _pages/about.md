@@ -32,6 +32,7 @@ I'm a software engineer and investor. I love reading, psychology, and sports.
 Full-stack software engineer with 6+ years of experience designing scalable web platforms, developing internal tools, and resolving high-impact production issues across fast-paced environments.
 
 My technical skills include:
+
 - **Key Skills:** Full-Stack Engineering, Backend APIs, Internal Tooling, Production Debugging, Developer Experience
 - **Programming:** Javascript/Typescript, Python, MongoDB, SQL (PostgreSQL), HTML/CSS
 - **Frameworks:** React, Node.js, Flask, TailwindCSS, Bootstrap, FastAPI, Next.js

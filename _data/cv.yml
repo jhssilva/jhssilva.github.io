@@ -75,7 +75,7 @@
     - year: 2024
       items:
         - Top Dog Award (Datadog, Q2)
-        - Altice Labs Award for Best Master’s Student
+        - 'Altice Labs Award for Best Master’s Student <a href="/assets/img/awards/master-best-student.png" target="_blank">(Certificate)</a>'
 
 - title: Technical Skills
   type: nested_list

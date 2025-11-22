@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
+description: Academic publications and theses.
 nav: true
 nav_order: 2
 ---

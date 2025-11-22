@@ -1,14 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jhssilva
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jhssilva/TravelSalesManProblem
+  - jhssilva/FaceIdentifierPunchInPunchOut
+  - jhssilva/TSP_PO
+  - jhssilva/Wordle
+  - jhssilva/PongGame
+  - jhssilva/SnakeSimulation
+  - jhssilva/Breakout-Game
+  - jhssilva/Give-Change
+  - jhssilva/DROOLS
+  - jhssilva/Zoo

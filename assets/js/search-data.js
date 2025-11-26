@@ -52,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/hello-world/";
+            window.location.href = "/blog/2025/hello-world/";
           
         },
       },{id: "projects-les-vitrines-de-dourdan",

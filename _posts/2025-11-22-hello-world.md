@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello, world! 👋"
-date: 2024-11-22 12:00:00
+date: 2025-11-22 12:00:00
 description: A little bit about me and this portfolio.
 tags: introduction about
 categories: general

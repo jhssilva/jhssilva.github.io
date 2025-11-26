@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-hello-world",
+        },{id: "post-perception-is-all-that-matters",
+        
+          title: "Perception is all that matters",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/perception-all-that-matters/";
+          
+        },
+      },{id: "post-hello-world",
         
           title: "Hello, world! 👋",
         

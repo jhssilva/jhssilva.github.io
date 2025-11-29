@@ -9,7 +9,6 @@ profile:
   image: bio-photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p>
     <p><a href="mailto:"></a></p>
     <p>Paris, France</p>
 

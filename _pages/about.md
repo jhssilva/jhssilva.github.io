@@ -9,7 +9,6 @@ profile:
   image: bio-photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>00 33 6 98 31 98 70</p>
     <p><a href="mailto:jhssilva96@gmail.com">jhssilva96@gmail.com</a></p>
     <p>Paris, France</p>
 

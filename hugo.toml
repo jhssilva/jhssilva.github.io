@@ -23,7 +23,7 @@ enableRobotsTXT = true
   unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [params]
   env = "production"
@@ -73,9 +73,6 @@ enableRobotsTXT = true
     name = "rss"
     url = "/index.xml"
 
-  [params.fuseOpts]
-    keys = ["title", "summary", "content"]
-
 [menu]
   [[menu.main]]
     name = "About"
@@ -89,7 +86,3 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 4
-  [[menu.main]]
-    name = "Search"
-    url = "/search/"
-    weight = 5

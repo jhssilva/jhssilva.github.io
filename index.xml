@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hugo Silva</title><link>https://jhssilva.github.io/</link><description>Recent content on Hugo Silva</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Nov 2025 12:00:00 +0100</lastBuildDate><atom:link href="https://jhssilva.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Perception is all that matters</title><link>https://jhssilva.github.io/blog/2025/perception-all-that-matters/</link><pubDate>Wed, 26 Nov 2025 12:00:00 +0100</pubDate><guid>https://jhssilva.github.io/blog/2025/perception-all-that-matters/</guid><description>&lt;p&gt;There is something we don&amp;rsquo;t talk about enough in our lives.&lt;/p&gt;
+&lt;p&gt;Where should I start? I&amp;rsquo;m kind of new to this&amp;hellip;
+Should I describe my experience to you? Should I talk about the perception of things?&lt;/p&gt;
+&lt;p&gt;Lately, I&amp;rsquo;ve been finding more and more that &lt;strong&gt;perception is all that matters&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Do you want that promotion? Have you been working hard?
+Did you say something funny? Did everyone laugh? Have you told the same joke to another group of people, and it landed completely differently?&lt;/p&gt;</description></item><item><title>Hello, world! 👋</title><link>https://jhssilva.github.io/blog/2025/hello-world/</link><pubDate>Sat, 22 Nov 2025 12:00:00 +0100</pubDate><guid>https://jhssilva.github.io/blog/2025/hello-world/</guid><description>A little bit about me and this portfolio.</description></item><item><title>About</title><link>https://jhssilva.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jhssilva.github.io/about/</guid><description>&lt;p&gt;I&amp;rsquo;m a backend software engineer at &lt;a href="https://www.datadoghq.com"&gt;Datadog&lt;/a&gt; in Paris, working on the error deobfuscation platform: the systems that turn minified JavaScript and native crash reports into readable stack traces.&lt;/p&gt;
+&lt;p&gt;I have 7+ years of experience building reliable, cost-efficient distributed systems. At Datadog, I shipped &lt;a href="https://docs.datadoghq.com/real_user_monitoring/guide/upload-javascript-source-maps/"&gt;JavaScript Debug IDs&lt;/a&gt;, cutting duplicated symbol ingestion by 95%+, delivered native crash symbolication across Windows, macOS, iOS and Linux, and cut on-call pages by 98%.&lt;/p&gt;
+&lt;h2 id="skills"&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Key skills:&lt;/strong&gt; Backend Systems, Distributed Systems, Production Incident Investigation, Observability, Systems Reliability&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming:&lt;/strong&gt; Go, Rust, JavaScript/TypeScript, Python, SQL (PostgreSQL)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Kubernetes, Terraform, Docker, Kafka, Redis, AWS S3, gRPC, Datadog, Bazel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Portuguese (native), English (C1-C2), French (B1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="milestones"&gt;Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sep 2026:&lt;/strong&gt; Shipped JavaScript Debug ID support for source maps at Datadog (&lt;a href="https://docs.datadoghq.com/real_user_monitoring/guide/upload-javascript-source-maps/"&gt;docs&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apr 2026:&lt;/strong&gt; Started as a Software Engineer at Datadog, on the error deobfuscation platform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024:&lt;/strong&gt; Altice Labs Award for Best Master&amp;rsquo;s Student, Évora University (&lt;a href="https://jhssilva.github.io/assets/img/awards/master-best-student.png"&gt;certificate&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024:&lt;/strong&gt; Datadog Top Dog Award (Q2).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="education"&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Master of Software Engineering&lt;/strong&gt;, Évora University (2024). Thesis: &lt;a href="https://jhssilva.github.io/assets/pdf/master-medical-data-hub-thesis.pdf"&gt;Medical Data Hub&lt;/a&gt;, a privacy-first platform for querying and processing sensitive medical data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bachelor of Software Engineering&lt;/strong&gt;, Coimbra Higher Institute of Engineering (2019). &lt;a href="https://jhssilva.github.io/assets/pdf/bachelor-internship-thesis.pdf"&gt;Internship thesis&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="outside-work"&gt;Outside work&lt;/h2&gt;
+&lt;p&gt;I enjoy reading non-fiction and leadership books, investing, startup operations, football and my homelab.&lt;/p&gt;</description></item><item><title>CV</title><link>https://jhssilva.github.io/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jhssilva.github.io/cv/</guid><description>&lt;p&gt;Backend engineer with 7+ years building reliable, cost-efficient distributed systems. At Datadog, I shipped JavaScript Debug IDs, cutting duplicated symbol ingestion by 95%+, delivered native crash symbolication across Windows, macOS, iOS and Linux, and cut on-call pages by 98%.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class="cv-button" href="https://jhssilva.github.io/assets/pdf/hugo-silva-resume.pdf" target="_blank" rel="noopener"&gt;Open full screen&lt;/a&gt;
+&lt;a class="cv-button" href="https://jhssilva.github.io/assets/pdf/hugo-silva-resume.pdf" download&gt;Download PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;object class="cv-pdf" data="/assets/pdf/hugo-silva-resume.pdf#view=FitH&amp;amp;navpanes=0&amp;amp;pagemode=none" type="application/pdf"&gt;
+&lt;p&gt;Your browser can't display the PDF here. &lt;a href="https://jhssilva.github.io/assets/pdf/hugo-silva-resume.pdf"&gt;Download it instead&lt;/a&gt;.&lt;/p&gt;
+&lt;/object&gt;</description></item></channel></rss>

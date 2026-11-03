@@ -1,0 +1,25 @@
+.cv-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  background: var(--tertiary);
+  color: var(--primary);
+  font-weight: 500;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+.cv-pdf {
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.cv-button + .cv-button {
+  margin-left: 0.5rem;
+}
+/* Give the embedded CV the full content width and a page-like height. */
+.cv-pdf {
+  aspect-ratio: 8.5 / 11;
+  height: auto;
+}

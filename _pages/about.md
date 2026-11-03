@@ -9,7 +9,6 @@ profile:
   image: bio-photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href="mailto:"></a></p>
     <p>Paris, France</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

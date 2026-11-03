@@ -49,7 +49,7 @@
       "name": "Datadog",
       "position": "Technical Escalations Engineer 2",
       "url": "https://www.datadoghq.com",
-      "startDate": "2024-11-02",
+      "startDate": "2024-10-01",
       "endDate": "2026-04-01",
       "summary": "Led reliability work on the RUM deobfuscation stack and resolved high-impact production issues across engineering teams",
       "highlights": [
@@ -64,13 +64,13 @@
       "position": "Technical Support Engineer 2",
       "url": "https://www.datadoghq.com",
       "startDate": "2023-11-02",
-      "endDate": "2024-11-02",
+      "endDate": "2024-10-01",
       "summary": "Investigated customer escalations, lead technical calls with clients, and handled high priority issues. Led onboarding and mentorship of 5+ team members, accelerating productivity. Resolved 70% more tickets than the target. Earned the Top Dog Award for Q2 2024",
       "highlights": []
     },
     {
       "name": "Usercentrics",
-      "position": "Senior Technical Support Specialist",
+      "position": "Customer Success Engineer → Senior Technical Support Specialist",
       "url": "https://usercentrics.com",
       "startDate": "2021-09-01",
       "endDate": "2023-11-01",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Truewind",
-      "position": "Junior Software Engineer",
+      "position": "Junior Solutions Developer",
       "url": "https://www.truewind.com",
       "startDate": "2020-02-01",
       "endDate": "2021-08-01",
@@ -87,8 +87,8 @@
       "highlights": []
     },
     {
-      "name": "Enso Origin",
-      "position": "Intern Full Stack Developer",
+      "name": "Enso Origins",
+      "position": "Full Stack Engineer (Internship)",
       "url": "https://ensoorigins.com",
       "startDate": "2019-02-01",
       "endDate": "2019-08-01",
@@ -115,7 +115,7 @@
       "url": "https://www.isec.pt",
       "area": "Software Engineering",
       "studyType": "Bachelor",
-      "startDate": "2016-09-01",
+      "startDate": "2014-09-01",
       "endDate": "2019-07-01",
       "score": "",
       "courses": []

@@ -4,11 +4,11 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
-          {% if content.startDate and content.startDate != '' %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+          {% comment %} Show only the graduation year (or Present), matching the PDF resume. {% endcomment %}
+          {% if content.endDate and content.endDate != '' %}
+            {% assign date = content.endDate | split: '-' | first %}
+          {% elsif content.startDate and content.startDate != '' %}
+            {% assign date = 'Present' %}
           {% else %}
             {% assign date = null %}
           {% endif %}

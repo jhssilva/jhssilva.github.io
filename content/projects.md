@@ -8,9 +8,8 @@ hideMeta: true
 
 ## Open source
 
-Public contributions to Datadog's open-source symbolication and source map tooling.
+Public contributions to Datadog's open-source developer tooling.
 
-- **[DataDog/symbolic](https://github.com/DataDog/symbolic)** (Rust): native crash (minidump) processing and stack unwinding for Windows, macOS, iOS and Linux.
 - **[DataDog/datadog-ci](https://github.com/DataDog/datadog-ci)** (TypeScript): reduced PE unwind information uploads, ARM64 support, and Debug ID registration fixes for source maps.
 - **[DataDog/build-plugins](https://github.com/DataDog/build-plugins)** (TypeScript): retries for transient network errors and buffered compressed uploads.
 

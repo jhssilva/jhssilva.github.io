@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Full-stack Software Engineer | Investor
+subtitle: Backend Software Engineer @ Datadog | Distributed systems, Go, Rust
 
 profile:
   align: right
@@ -25,15 +25,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a software engineer and investor. I love reading, psychology, and sports.
+I'm a backend software engineer at [Datadog](https://www.datadoghq.com) in Paris, working on the RUM error deobfuscation platform: the systems that turn minified JavaScript and native crash reports into readable stack traces.
 
-Full-stack software engineer with 6+ years of experience designing scalable web platforms, developing internal tools, and resolving high-impact production issues across fast-paced environments.
+Backend engineer with 7+ years building reliable, cost-efficient distributed systems. At Datadog, I shipped [JavaScript Debug IDs](https://docs.datadoghq.com/real_user_monitoring/guide/upload-javascript-source-maps/), cutting duplicated symbol ingestion by 95%+, delivered native crash symbolication across Windows, macOS, iOS and Linux, and cut on-call pages by 98%.
 
 My technical skills include:
 
-- **Key Skills:** Full-Stack Engineering, Backend APIs, Internal Tooling, Production Debugging, Developer Experience
-- **Programming:** Javascript/Typescript, Python, MongoDB, SQL (PostgreSQL), HTML/CSS
-- **Frameworks:** React, Node.js, Flask, TailwindCSS, Bootstrap, FastAPI, Next.js
-- **Languages:** Portuguese (native), French (A2), English (C1-C2)
+- **Key Skills:** Backend Systems, Distributed Systems, Production Incident Investigation, Observability, Systems Reliability
+- **Programming:** Go, Rust, Javascript/Typescript, Python, SQL (PostgreSQL)
+- **Tools:** Kubernetes, Terraform, Docker, Kafka, Redis, AWS S3, gRPC, Datadog, Bazel
+- **Languages:** Portuguese (native), English (C1-C2), French (B1)
 
-I am interested in reading non-fiction, DevOps tools, startup operations, investing, football, and leadership books.
+Outside work, I enjoy reading non-fiction and leadership books, investing, startup operations, football and my homelab.

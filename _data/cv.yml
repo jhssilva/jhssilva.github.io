@@ -6,21 +6,30 @@
     - name: Date of Birth
       value: 4th November 1996
     - name: Languages
-      value: Portuguese (native), French (A2), English (C1-C2)
+      value: Portuguese (native), French (B1), English (C1-C2)
 
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer 1
+      institution: Datadog, Paris, France
+      year: Apr 2026 – Present
+      description:
+        - Led end-to-end delivery of JavaScript Debug ID support across 10+ services (intake, API, UI), cutting duplicated symbol ingestion by 95%+ for the largest org.
+        - "Shipped native crash (minidump) symbolication for Windows, macOS, iOS and Linux: CFI cache generation, Rust/CGo bindings and upstream fixes to the Symbolic library."
+        - Built a disk cache for symbol files (mmap, batched lookups, stream-to-disk, multi-key aliases), cutting S3 GET requests by 40%+.
+        - Implemented a per-frame distributed cache for JS unminification (p95 40ms → 4ms, p99 180ms → 120ms).
+        - Cut sourcemap-processor on-call pages by 98% after reducing OOM kills by 99%.
+        - Automated Electron symbol ingestion with a scheduled upload job and enabled sourcemap uploads via a documented public API.
+
     - title: Technical Escalations Engineer 2
       institution: Datadog, Paris, France
-      year: Nov 2024 – Present
+      year: Nov 2024 – Apr 2026
       description:
-        - Developed a gRPC server in Go for internal service communication and contributed features in Java, Go and Javascript.
-        - Independently investigated and fixed two production issues reported by engineering teams.
-        - title: Internal Tools & Automation
-          contents:
-            - Implemented an LLM on the Slack channel reducing the need for manual intervention by 47%.
-            - Created internal tools for debugging and monitoring (e.g. Chrome Extensions), improving team efficiency by 30%.
+        - Eliminated 100+ weekly production crashes (→0) via root-cause analysis, deterministic memory fixes and an allocator migration in a high-throughput deobfuscation service.
+        - Drove splitting a critical service into independently scalable deployments and owned a cross-team Rust/CGo FFI library upgrade.
+        - Unblocked Next.js + Turbopack customers from source code integration failures, shipping the fix across multiple services.
+        - Introduced LLM-powered automation (-50% operational burden) and Terraform-managed dashboards, monitors and runbooks.
 
     - title: Technical Support Engineer 2
       institution: Datadog, Paris, France
@@ -82,13 +91,16 @@
   contents:
     - title: Key Skills
       items:
-        - Full-Stack Engineering, Backend APIs, Internal Tooling, Production Debugging, Developer Experience
+        - Backend Systems, Distributed Systems, Production Incident Investigation, Observability, Systems Reliability
     - title: Programming
       items:
-        - Javascript/Typescript, Python, MongoDB, SQL (PostgreSQL), HTML/CSS
+        - Go, Rust, Javascript/Typescript, Python, SQL (PostgreSQL)
+    - title: Tools
+      items:
+        - Kubernetes, Terraform, Docker, Kafka, Redis, AWS S3, gRPC, Datadog, Bazel
     - title: Frameworks
       items:
-        - React, Node.js, Flask, TailwindCSS, Bootstrap, FastAPI, Next.js
+        - Node.js, FastAPI
 
 - title: Other Interests
   type: list

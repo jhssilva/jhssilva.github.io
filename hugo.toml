@@ -1,0 +1,102 @@
+baseURL = "https://jhssilva.github.io/"
+languageCode = "en-us"
+title = "Hugo Silva"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[permalinks]
+  blog = "/blog/:year/:slug/"
+
+# Keep assets/ (images, PDFs) served at /assets/... so existing links and the
+# resume repo's publish path (assets/pdf/hugo-silva-resume.pdf) keep working.
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "assets"
+  target = "static/assets"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "Backend Software Engineer @ Datadog | Distributed systems, Go, Rust"
+  author = "Hugo Silva"
+  defaultTheme = "auto"
+  mainSections = ["blog"]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  disableSpecial1stPost = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Hugo Silva"
+    subtitle = "Backend Software Engineer @ Datadog · Paris<br>Distributed systems, Go, Rust · Crash symbolication, caching & reliability at scale"
+    imageUrl = "img/bio-photo.jpg"
+    imageTitle = "Hugo Silva"
+    imageWidth = 150
+    imageHeight = 150
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+    [[params.profileMode.buttons]]
+      name = "CV"
+      url = "/cv/"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jhssilvaa"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jhssilva"
+  [[params.socialIcons]]
+    name = "cv"
+    url = "/assets/pdf/hugo-silva-resume.pdf"
+  [[params.socialIcons]]
+    name = "buymeacoffee"
+    url = "https://buymeacoffee.com/hugo.silva"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  [params.fuseOpts]
+    keys = ["title", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 5

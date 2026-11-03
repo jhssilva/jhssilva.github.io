@@ -24,7 +24,7 @@
 
     - title: Technical Escalations Engineer 2
       institution: Datadog, Paris, France
-      year: Nov 2024 – Apr 2026
+      year: Oct 2024 – Apr 2026
       description:
         - Eliminated 100+ weekly production crashes (→0) via root-cause analysis, deterministic memory fixes and an allocator migration in a high-throughput deobfuscation service.
         - Drove splitting a critical service into independently scalable deployments and owned a cross-team Rust/CGo FFI library upgrade.
@@ -33,13 +33,13 @@
 
     - title: Technical Support Engineer 2
       institution: Datadog, Paris, France
-      year: Nov 2023 – Nov 2024
+      year: Nov 2023 – Oct 2024
       description:
         - Investigated customer escalations, lead technical calls with clients, and handled high priority issues.
         - Led onboarding and mentorship of 5+ team members, accelerating productivity.
         - Resolved 70% more tickets than the target.
 
-    - title: Senior Technical Support Specialist
+    - title: Customer Success Engineer → Senior Technical Support Specialist
       institution: Usercentrics, Lisbon, Portugal
       year: Sep 2021 – Nov 2023
       description:
@@ -49,15 +49,15 @@
           contents:
             - Wrote scripts and components to streamline customer onboarding and resolve platform bugs.
 
-    - title: Junior Software Engineer
+    - title: Junior Solutions Developer
       institution: Truewind, Recife, Brazil
       year: Feb 2020 – Aug 2021
       description:
         - Built a mobile platform with 80k+ monthly users using OutSystems, C#, and AWS.
         - Collaborated cross-functionally on requirements and QA.
 
-    - title: Intern Full Stack Developer
-      institution: Enso Origin, Coimbra, Portugal
+    - title: Full Stack Engineer (Internship)
+      institution: Enso Origins, Coimbra, Portugal
       year: Feb 2019 – Aug 2019
       description:
         - Engineered two internal platforms using PHP, PostgreSQL, and Docker that automated multi-system account management and improved productivity by 200%.

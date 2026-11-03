@@ -1,7 +1,7 @@
 ---
 title: "About"
 url: "/about/"
-aliases: ["/news/"]
+aliases: ["/news/", "/projects/", "/publications/", "/repositories/"]
 ShowReadingTime: false
 hideMeta: true
 ---
@@ -23,6 +23,11 @@ I have 7+ years of experience building reliable, cost-efficient distributed syst
 - **Apr 2026:** Started as a Software Engineer at Datadog, on the error deobfuscation platform.
 - **2024:** Altice Labs Award for Best Master's Student, Évora University ([certificate](/assets/img/awards/master-best-student.png)).
 - **2024:** Datadog Top Dog Award (Q2).
+
+## Education
+
+- **Master of Software Engineering**, Évora University (2024). Thesis: [Medical Data Hub](/assets/pdf/master-medical-data-hub-thesis.pdf), a privacy-first platform for querying and processing sensitive medical data.
+- **Bachelor of Software Engineering**, Coimbra Higher Institute of Engineering (2019). [Internship thesis](/assets/pdf/bachelor-internship-thesis.pdf).
 
 ## Outside work
 

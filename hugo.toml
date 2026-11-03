@@ -54,9 +54,6 @@ enableRobotsTXT = true
       name = "CV"
       url = "/cv/"
     [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
-    [[params.profileMode.buttons]]
       name = "Blog"
       url = "/blog/"
 
@@ -88,10 +85,6 @@ enableRobotsTXT = true
     name = "CV"
     url = "/cv/"
     weight = 2
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
   [[menu.main]]
     name = "Blog"
     url = "/blog/"

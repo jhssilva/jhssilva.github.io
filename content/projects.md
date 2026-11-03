@@ -8,9 +8,9 @@ hideMeta: true
 
 ## Open source
 
-Public contributions to the tools that upload and process debug symbols for Datadog Error Tracking and RUM.
+Public contributions to Datadog's open-source symbolication and source map tooling.
 
-- **[DataDog/symbolic](https://github.com/DataDog/symbolic)** (Rust, fork of Sentry's Symbolic): minidump processing and CFI-based stack unwinding through the C ABI, plus Windows PE, x86 and macOS dSYM fixes.
+- **[DataDog/symbolic](https://github.com/DataDog/symbolic)** (Rust): native crash (minidump) processing and stack unwinding for Windows, macOS, iOS and Linux.
 - **[DataDog/datadog-ci](https://github.com/DataDog/datadog-ci)** (TypeScript): reduced PE unwind information uploads, ARM64 support, and Debug ID registration fixes for source maps.
 - **[DataDog/build-plugins](https://github.com/DataDog/build-plugins)** (TypeScript): retries for transient network errors and buffered compressed uploads.
 

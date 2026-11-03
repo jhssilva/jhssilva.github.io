@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Hugo Silva",
-    "label": "Software Engineer | 6+ yrs experience in scalable platforms, LLMs, debugging & observability | Datadog | Top Dog Award Winner | Altice Labs Award Winner | Investor",
+    "label": "Software Engineer | 7+ yrs building reliable, cost-efficient distributed systems | Go, Rust/CGo | Datadog | Top Dog Award Winner | Altice Labs Award Winner | Investor",
     "image": "",
     "email": "",
     "phone": "",
     "url": "https://jhssilva.github.io",
-    "summary": "Full-stack software engineer with 6+ years of experience designing scalable web platforms, developing internal tools, and resolving high-impact production issues across fast-paced environments",
+    "summary": "Backend engineer with 7+ years building reliable, cost-efficient distributed systems. At Datadog, shipped JavaScript Debug IDs, cutting duplicated symbol ingestion by 95%+, delivered native crash symbolication across Windows, macOS, iOS and Linux, and cut on-call pages by 98%. Strong in Go, Rust/CGo, caching and cross-team ownership",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,12 +30,34 @@
   "work": [
     {
       "name": "Datadog",
+      "position": "Software Engineer 1",
+      "url": "https://www.datadoghq.com",
+      "startDate": "2026-04-01",
+      "endDate": "",
+      "summary": "Backend engineer on the RUM error deobfuscation platform (Go, Rust/CGo), focused on symbolication, caching, reliability and cost efficiency",
+      "highlights": [
+        "Led end-to-end delivery of JavaScript Debug ID support across 10+ services (intake, API, UI), cutting duplicated symbol ingestion by 95%+ for the largest org",
+        "Shipped native crash (minidump) symbolication for Windows, macOS, iOS and Linux: CFI cache generation, Rust/CGo bindings and upstream fixes to the Symbolic library",
+        "Built a disk cache for symbol files (mmap, batched lookups, stream-to-disk, multi-key aliases), cutting S3 GET requests by 40%+; identified gp3 disk bottlenecks and drove rollout with partner teams",
+        "Implemented a per-frame distributed cache for JS unminification, stabilizing latency (p95 40ms → 4ms, p99 180ms → 120ms)",
+        "Cut sourcemap-processor on-call pages by 98% after reducing OOM kills by 99%",
+        "Automated Electron symbol ingestion with a scheduled upload job, stepping in to unblock the pipeline during limited team bandwidth",
+        "Enabled sourcemap uploads via a public API and authored its public documentation (JSON schema, Debug ID lookup)"
+      ]
+    },
+    {
+      "name": "Datadog",
       "position": "Technical Escalations Engineer 2",
       "url": "https://www.datadoghq.com",
       "startDate": "2024-11-02",
-      "endDate": "",
-      "summary": "Developed a gRPC server in Go for internal service communication and contributed features in Java, Go and Javascript. Independently investigated and fixed two production issues reported by engineering teams. Implemented an LLM on the Slack channel reducing the need for manual intervention by 47%. Created internal tools for debugging and monitoring (e.g. Chrome Extensions), improving team efficiency by 30%",
-      "highlights": []
+      "endDate": "2026-04-01",
+      "summary": "Led reliability work on the RUM deobfuscation stack and resolved high-impact production issues across engineering teams",
+      "highlights": [
+        "Eliminated 100+ weekly production crashes (→0) via root-cause analysis, deterministic memory fixes and an allocator migration in a high-throughput deobfuscation service",
+        "Drove splitting a critical service into independently scalable deployments and owned a cross-team Rust/CGo FFI library upgrade",
+        "Unblocked Next.js + Turbopack customers from source code integration failures, shipping the fix across multiple services",
+        "Introduced LLM-powered automation (-50% operational burden) and Terraform-managed dashboards, monitors and runbooks"
+      ]
     },
     {
       "name": "Datadog",
@@ -134,17 +156,22 @@
     {
       "name": "Key Skills",
       "level": "",
-      "keywords": ["Full-Stack Engineering", "Backend APIs", "Internal Tooling", "Production Debugging", "Developer Experience"]
+      "keywords": ["Backend Systems", "Distributed Systems", "Production Incident Investigation", "Observability", "Systems Reliability"]
     },
     {
       "name": "Programming",
       "level": "",
-      "keywords": ["Javascript/Typescript", "Python", "MongoDB", "SQL (PostgreSQL)", "HTML/CSS"]
+      "keywords": ["Go", "Rust", "Javascript/Typescript", "Python", "SQL (PostgreSQL)"]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": ["Kubernetes", "Terraform", "Docker", "Kafka", "Redis", "AWS S3", "gRPC", "Datadog", "Bazel"]
     },
     {
       "name": "Frameworks",
       "level": "",
-      "keywords": ["React", "Node.js", "Flask", "TailwindCSS", "Bootstrap", "FastAPI", "Next.js"]
+      "keywords": ["Node.js", "FastAPI"]
     }
   ],
   "languages": [
@@ -158,7 +185,7 @@
     },
     {
       "language": "French",
-      "fluency": "A2"
+      "fluency": "B1"
     }
   ],
   "interests": [
